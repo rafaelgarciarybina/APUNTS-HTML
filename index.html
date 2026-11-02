@@ -12,11 +12,129 @@
 <ul>
 	<li><a href="#home">Inici</a></li> 
 	<li><a href="#html-basic"> Html bàsic</a></li> 
-	<li><a href="#"></li>
+	<li><a href="#Introduccio">Introducció</li>
 	<li><a href="#html-avançat">Html avançat</a></li>
+	<li><a href="#github">GitHUb</a></li>
+	<li><a href="#Cvv">Cvv</a></li>
 </ul>
 </nav>
 </header>
-<body>
-    
+<section id = "html-basic">
+	<h2>Etiquetes comuns</h2>
+	<p> Per les coses més bàsiques necesitem les etiquetes, paraules que defineixen com és el text entre si.</p>
+	<table>
+	<thead>
+	<tr>
+	<th>p</th>
+	<th>h1 i derivats</th>
+	<th>section</th>
+	<th>div</th>
+	<th>table</th>
+	<th>thead</th>
+	<th>tbody</th>
+	<th>th</th>
+	<th>tr</th>
+	<th>td</th>
+	</tr>
+	</thead>
+	<tbody>
+	<tr>
+	<td>Serveix per paràgrafs</td>
+	<td>Serveix per títols, de l'1 al 6 </td>
+	<td> Agrupa contingut relacionat dins una mateixa pàgina </td>
+	<td> Crea contenidors de bloc a la pàgina (no abusar) </td>
+	<td>Limita des de on es crea una taula com la d'ara </td>
+	<td>Defineix la capçalera de la taula </td>
+	<td>Defineix on es posa l'informació de les columnes</td>
+	<td>On es posa l'item de les files d alt (capçalera)</td>
+	<td>Limita on es defineix cada fila </td>
+	<td>Celda on es posa l'informació com aquesta mateixa</td>
+	</tr>
+	</tbody>
+	</table>
+</section>
+<section>
+	<h2>Format de text</h2>
+	<p>Aquest és un <b>text en negreta</b> i aquest és un text <strong>text important subrallat </strong>.</p>
+	<p>Aquest és un <i>text en cursiva</i> i aquest un    <em>text emfatitzat</em>.</p>
+	<p>Aquest és un <u> text subratllat</u> i aquest un   <s>text ratllat</s>.</p>
+	<p> I per elevar o baixar els nombres que podem emprar per nombres amb exponents o fòrmules químiques tenim l'etiqueta sub i sup. </p>
+	<p> H<sub>2</sub>0. El quadrat de x és x<sup>2</sup>.</p>
+</section>
+
+<article> 
+	<h2>Organització Semàntica </h2>
+	<p> S'usa l'article per el mateix que el section pero per no abusar d un </p>
+</article>
+
+<section id="html-avançat">
+	<h2>Multimedia</h2>
+	<article> 
+	<h3>Imatges</h3>
+	<img src="HTML5_logo_and_wordmark.svg.webp" alt="Logo html 5" width ="300" height="200">
+	</article>
+
+	<article>
+	<h3>Vídeo</h3>
+	<video src="proves.mp4" controls width="400" height="300"> El teu navegador no soporta el video
+	</video>
+	</article>
+
+	<article>
+	<h3>Audio</h3>
+ 	<audio src="audio.mp3.mp3" controls>
+    El teu navegador no suporta l'àudio.
+    </audio>
+    </article>
+</section>
+
+<section>
+        <h2>Formularis</h2>
+        <p>A continuació es mostra un exemple bàsic de formulari per enviar dades.</p>
+        
+        <form action="submit.php" method="POST">
+    <div>
+      <label for="nom">Nom:</label>
+      <input type="text" id="nom" name="nom" placeholder="Escriu el teu nom">
+    </div>
+    <br>
+    <div>
+      <label for="email">Correu:</label>
+      <input type="email" id="email" name="email"  placeholder="Escriu el teu correu electrònic">
+    </div>
+    <br>
+    <div>
+      <label for="comentari">Comentari:</label><br>
+      <textarea name="comentari" id="comentari" rows="4" cols="50" placeholder="Escriu el teu comentari aquí"></textarea>
+    </div>
+    <br>
+    <input type="submit" value="Enviar">
+    </form>
+</section>
+
+
+<aside>
+       <h3>Nota sobre accessibilitat</h3>
+       <p>Això és l'aside i s'usa per poder posar contingut a un costat de la pàgina, normalment info secundaria.</p>
+</aside>
+
+<hr>
+    <section>
+        <h2>Elements en línia i ruptures</h2>
+        <p>En HTML, podem estilitzar petites parts d'una frase utilitzant un <span style="color: red;">text en vermell</span> dins d'un span.</p>
+        <p>La línia superior l'he creat amb l'etiqueta hr, que indica un canvi de tema.</p>
+    </section>
+</hr>
+<ul>
+	<li><a href="Cvv.html" class="#cvv" id="#Cvv">Cvv</li>
+	<li><a href=https://github.com/rafaelgarciarybina/APUNTS-HTML class="#github" id="#github">Git</li>
+</ul>
+
 </body>
+<footer id="#footer">
+
+	<p>Creat amb SublimeText per DAM<p>
+	<img src="copyright.png" alt="Logo html copy" width ="200" height="100">
+	<img src="gitHubLogo.png" alt="Logo git" width="200" height="100">
+	<img src="linkedinLogo.png" alt="Logo linkedin" width="200" height="100">
+</footer>
